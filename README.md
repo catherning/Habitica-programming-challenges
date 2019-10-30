@@ -38,7 +38,7 @@ You can also have several letters with a multiplicator. \
 For example, **for each letter** with a multiplicator, you add the optional argument *"--letter_multiplicator [index] [multiplicator]"*.
 
 **Example**: for the word "cabbage" with a word multiplicator of 2 and a triple multiplicator for the second letter (a), you call the python script like that \
-*"python october_scrabble.py cabbage --word_multiplicator 2 --letter_multiplicator 1 3"*
+*"python october_scrabble.py cabbage --word_multiplicator 2 --letter_multiplicator 1 3"*\
 It gives a score of 2\*(13+3*1)=32 
  
 ### Future work: 
