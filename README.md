@@ -32,13 +32,13 @@ You can play a double or triple word
 The program lets you check for a word with the double or triple letter and word. 
 
 You can accumulate the word multiplicators, so you can have the multiplicators 1, 2, 3, 2\*2=4, 3\*3=9 (not double and triple  at the same time because of the disposition of the board). \
-You can mention it with the optional argument "--word_multiplicator 2" for example.
+You can mention it with the optional argument *"--word_multiplicator 2"* for example.
 
 You can also have several letters with a multiplicator. \
-For example, **for each letter** with a multiplicator, you add the optional argument "--letter_multiplicator [index] [multiplicator]".
+For example, **for each letter** with a multiplicator, you add the optional argument *"--letter_multiplicator [index] [multiplicator]"*.
 
-**Example**: for the word "cabbage" with a word multiplicator of 2 and a triple multiplicator for the second letter (a), you call the python script like that
-"python october_scrabble.py cabbage --word_multiplicator 2 --letter_multiplicator 1 3"
+**Example**: for the word "cabbage" with a word multiplicator of 2 and a triple multiplicator for the second letter (a), you call the python script like that \
+*"python october_scrabble.py cabbage --word_multiplicator 2 --letter_multiplicator 1 3"*
 It gives a score of 2\*(13+3*1)=32 
  
 ### Future work: 
